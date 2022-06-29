@@ -15,7 +15,6 @@ import javax.persistence.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @Table(name="PERSON")
-
 public class Person {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
